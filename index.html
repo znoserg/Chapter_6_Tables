@@ -6,16 +6,25 @@
     </title>
 </head>
 <body>
-    <table>
+    <table border="11" bgcolor="#ffe4c4">
+        <thead>
         <tr>
             <th></th> <th scope="col">Книги</th> <th>Журналы</th> <th>Открытки</th>
         </tr>
+        </thead>
+        <tfoot>
+        <tr>
+            <th>Итого:</th> <td>1</td> <td>2</td> <td>3</td>
+        </tr>
+        </tfoot>
+        <tbody>
         <tr>
             <th scope="row">Полка 1</th> <td rowspan="2">Достоевский</td> <td>Чехов</td> <td>Булгаков</td>
         </tr>
         <tr>
             <th>Полка 2</th> <td colspan="2">Стругацкие А. и Б.</td>
         </tr>
+        </tbody>
     </table>
 </body>
 </html>
